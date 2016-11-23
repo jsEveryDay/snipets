@@ -1,5 +1,13 @@
 # JS Snippets
 
+## package.json regex version selector
+
+
+```javascript
+([>|<|=|~|^|\s])*?(\d+\.)?(\d+\.)?(\*|\d+)
+```
+![Image of regex](https://i.stack.imgur.com/N00l2.png)
+
 ## Registering a custom html5 data-* attribute
 
 ```html
